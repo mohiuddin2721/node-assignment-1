@@ -21,7 +21,7 @@ Save a user in the .json file
 BONUS: validate the body and check if all the required properties are present in the body. ************
 
 04. PATCH /user/update Update a random user
-Update a user's information in the .json file using its id
+Update a user's information in the .json file using its id *******************************************
 BONUS: validate the user id
 
 05. PATCH /user/bulk-update update multiple users
@@ -30,7 +30,7 @@ Take an array of user ids and assign it to the body.
 BONUS: validate the body.
 
 06. DELETE /user/ delete
-Delete a user from the .json file using its id
+Delete a user from the .json file using its id ******************************************************
 BONUS: validate the user id
 
 Make sure to test the API with Postman or any other REST client.

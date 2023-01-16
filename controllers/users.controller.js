@@ -24,7 +24,7 @@ module.exports.saveUsers = (req, res) => {
 module.exports.updateUserId = (req, res) => {
     const { id } = req.params;
     const updatedUserData = userData.find(user => user.Id == Number(id))
-    
+
     updatedUserData.Id = id;
     updatedUserData.gender = req.body.gender;
     updatedUserData.name = req.body.name;
@@ -32,4 +32,10 @@ module.exports.updateUserId = (req, res) => {
     updatedUserData.address = req.body.address;
     updatedUserData.photoUrl = req.body.photoUrl;
     res.send(updatedUserData)
+}
+
+module.exports.deleteUserData = (req, res) => {
+    const { id } = req.params;
+    const deleteUser = userData.filter(data => data.Id !== Number(id))
+    res.send(deleteUser);
 }

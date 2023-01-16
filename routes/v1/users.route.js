@@ -15,7 +15,11 @@ router
     .post(usersController.saveUsers)
 
 router
-.route('/update/:id')
-.patch(usersController.updateUserId)
+    .route('/update/:id')
+    .patch(usersController.updateUserId)
+
+router
+    .route('/delete/:id')
+    .get(usersController.deleteUserData)
 
 module.exports = router;
