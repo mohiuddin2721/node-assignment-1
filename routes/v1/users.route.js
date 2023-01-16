@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express();
+const usersController = require('../../controllers/users.controller')
 
-router.route('/random').get((req, res) => {
-    res.send('Required to show random users')
-})
+router
+    .route('/random')
+    .get(usersController.getAllUsers)
 
 module.exports = router;

@@ -3,6 +3,8 @@ const app = express()
 const usersRoute = require('./routes/v1/users.route')
 const port = 5000
 
+app.use(express.json())
+
 app.get('/', (req, res) => {
   res.send('Hello nodeJs, I will destroy you. Assignment__1 !!!!')
 })
