@@ -10,4 +10,8 @@ router
     .route('/all')
     .get(usersController.getAllUsers)
 
+router
+.route('/save')
+.post(usersController.saveUsers)
+
 module.exports = router;
