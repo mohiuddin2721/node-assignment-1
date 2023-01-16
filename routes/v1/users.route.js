@@ -11,7 +11,11 @@ router
     .get(usersController.getAllUsers)
 
 router
-.route('/save')
-.post(usersController.saveUsers)
+    .route('/save')
+    .post(usersController.saveUsers)
+
+router
+.route('/update/:id')
+.patch(usersController.updateUserId)
 
 module.exports = router;
