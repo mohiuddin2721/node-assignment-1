@@ -10,10 +10,10 @@ Your API should have a .json file. You will perform CRUD operations on the .json
 
 
 01. GET /user/random A random user
-Get a random user from the .json file
+Get a random user from the .json file ************************************************************
 
 02. GET /user/all A list of random users
-Get all the users from the .json file
+Get all the users from the .json file ************************************************************
 BONUS: Limit the number of users using query parameter(s)
 
 03. POST /user/save Save a random user
