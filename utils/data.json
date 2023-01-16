@@ -1,0 +1,82 @@
+[
+    {
+        "Id": 1,
+        "gender": "male",
+        "name": "Messi",
+        "contact": "11111111",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 2,
+        "gender": "female",
+        "name": "Messir bou",
+        "contact": "11111111",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 3,
+        "gender": "male",
+        "name": "Messir bap",
+        "contact": "11111111",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 4,
+        "gender": "female",
+        "name": "Messir ma",
+        "contact": "11111111",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 5,
+        "gender": "male",
+        "name": "Messir pola",
+        "contact": "55555555",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 6,
+        "gender": "male",
+        "name": "Alvarej",
+        "contact": "666666666",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 7,
+        "gender": "male",
+        "name": "De fol",
+        "contact": "777777777",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 8,
+        "gender": "male",
+        "name": "Scalony",
+        "contact": "888888888",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 9,
+        "gender": "male",
+        "name": "Martinej",
+        "contact": "99999999",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    },
+    {
+        "Id": 10,
+        "gender": "male",
+        "name": "Romero",
+        "contact": "1010101010",
+        "address": "Argentina",
+        "photoUrl": "https://www.photourl.com"
+    }
+]
