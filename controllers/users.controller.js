@@ -6,7 +6,9 @@ module.exports.getARandomUser = (req, res) => {
 }
 
 module.exports.getAllUsers = (req, res) => {
-    res.json(userData)
+    const { limit } = req.query;
+    // console.log(limit);
+    res.json(userData.slice(0, limit))
 }
 
 module.exports.saveUsers = (req, res) => {
